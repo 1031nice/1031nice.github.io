@@ -10,8 +10,10 @@ categories: TIL
 ### TOC
 1. [Lambdas](#1.-Lambdas)
 2. [Common Operations on collections](#2.-Common-Operations-on-collections)
-3. [Safe casts](#3.-Safe-casts)
-4. [Importance of nullability](#4.-Importance-of-nullability)
+3. [Function Types](#3.-Function-Types)
+4. [Member Reference](#4.-Member-Reference)
+5. [return from Lambda](#5.-return-from-Lambda)
+6. [Is Kotlin a functional language?](#6.-Is-Kotlin-a-functional-language?)
 
 ### 1. Lambdas
 
@@ -279,7 +281,7 @@ oldest.name
 
 `Learn the library and try to reuse the library functions as much as possible. Not try to re-implement all the methods.`
 
-### Function Types
+### 3. Function Types
 
 코틀린에서는 람다를 변수에 담을 수 있다.
 
@@ -342,7 +344,7 @@ if (f != null) {
 f?.invoke()
 ```
 
-### Member Reference
+### 4. Member Reference
 Member reference는 단순히 멤버 함수를 호출하거나 멤버 프로퍼티를 반환하는 람다를 대체할 수 있다.
 
 ```kotlin
@@ -405,7 +407,7 @@ class Person(val name: String, val age: Int) {
 
 참고로 left-hand가 없는 function reference라고 해서 모두 bound reference인 것은 아니다. top-level 함수에 대한 function reference도 left-hand가 없다.
 
-### return from Lambda
+### 5. return from Lambda
 
 ```kotlin
 fun duplicateNonZero(list: List<Int>): List<Int> { // 1
@@ -494,7 +496,7 @@ fun duplicateNonZero(list: List<Int>): List<Int> {
 
 람다에서의 리턴(라벨을 이용하여 람다에 걸리는 리턴)은 반복문에서의 `continue`와 같은 맥락이다. 현재의 반복만 건너뛰는 `continue`처럼 람다에서는 해당 원소만 건너뛴다.
 
-### Is Kotlin a functional language?
+### 6. Is Kotlin a functional language?
 
 코틀린은 `Haskell`과 같은 순수 함수형 언어는 아니다.
 현대 주요 언어는 여러 패러다임의 아이디어를 섞는 경향이 있다.
