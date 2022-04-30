@@ -8,11 +8,11 @@ categories: TIL
 ## Nullability
 
 ### TOC
-1. [Nullable types](#1.-Nullable-types)
-2. [Nullable types under the hood](#2.-Nullable-types-under-the-hood)
-3. [Safe casts](#3.-Safe-casts)
-4. [Importance of nullability](#4.-Importance-of-nullability)
-5. [TMI](#5.-TMI)
+1. [Nullable types](#1-nullable-types)
+2. [Nullable types under the hood](#2-nullable-types-under-the-hood)
+3. [Safe casts](#3-safe-casts)
+4. [Importance of nullability](#4-importance-of-nullability)
+5. [TMI](#5-tmi)
 
 ### 1. Nullable types
 `The problem of nullability is sometimes referred to as billion dollar mistake.` 

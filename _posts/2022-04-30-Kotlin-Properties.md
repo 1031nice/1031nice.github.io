@@ -9,10 +9,10 @@ categories: TIL
 ## Properties
 
 ### TOC
-1. [Properties](#1.-Properties)
-2. [More about Properties](#2.-More-about-Properties)
-3. [Lazy or late initialization](#3.-Lazy-or-late-initialization)
-4. [TMI](#4.-TMI)
+1. [Properties](#1-properties)
+2. [More about Properties](#2-more-about-properties)
+3. [Lazy or late initialization](#3-lazy-or-late-initialization)
+4. [TMI](#4-tmi)
 
 ### 1. Properties
 `Unlike Java where a property is not a language construct, Kotlin supports it as a separate language feature.`

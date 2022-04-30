@@ -8,12 +8,12 @@ categories: TIL
 ## Functional Programming
 
 ### TOC
-1. [Lambdas](#1.-Lambdas)
-2. [Common Operations on collections](#2.-Common-Operations-on-collections)
-3. [Function Types](#3.-Function-Types)
-4. [Member Reference](#4.-Member-Reference)
-5. [return from Lambda](#5.-return-from-Lambda)
-6. [Is Kotlin a functional language?](#6.-Is-Kotlin-a-functional-language?)
+1. [Lambdas](#1-lambdas)
+2. [Common Operations on collections](#2-common-operations-on-collections)
+3. [Function Types](#3-function-types)
+4. [Member Reference](#4-member-reference)
+5. [return from Lambda](#5-return-from-lambda)
+6. [Is Kotlin a functional language?](#6-is-kotlin-a-functional-language)
 
 ### 1. Lambdas
 

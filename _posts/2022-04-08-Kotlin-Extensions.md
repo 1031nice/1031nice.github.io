@@ -7,11 +7,11 @@ categories: TIL
 
 ### TOC
 
-[1. Extension functions](#1.-Extension-functions)
-<br>[2. 표준 라이브러리 속 확장 함수](#2.-표준-라이브러리-속-확장-함수)
-<br>[3. Calling Extensions](#3.-Calling-Extensions)
-<br>[4. 확장 함수가 중요한 이유](#4.-확장-함수가-중요한-이유)
-<br>[5. TMI](#5.-TMI)
+1. [Extension functions](#1-extension-functions)
+2. [표준 라이브러리 속 확장 함수](#2-표준-라이브러리-속-확장-함수)
+3. [Calling Extensions](#3-calling-extensions)
+4. [확장 함수가 중요한 이유](#4-확장-함수가-중요한-이유)
+5. [TMI](#5-tmi)
 
 ### 1. Extension functions
 

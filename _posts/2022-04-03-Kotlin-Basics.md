@@ -6,11 +6,11 @@ categories: TIL
 ---
 
 ### TOC
-1. [Hello world example](#"Hello,-world"-example)
-2. [Variables](#Variables)
-3. [Functions](#Functions)
-4. [Control Structures](#Control-Structures)
-5. [Exceptions](#Exceptions)
+1. [Hello world example](#hello-world-example)
+2. [Variables](#variables)
+3. [Functions](#functions)
+4. [Control Structures](#control-structures)
+5. [Exceptions](#exceptions)
 
 ### "Hello, world" example
 
