@@ -310,8 +310,9 @@ class KotlinActivity: Activity() {
 정수인 경우 0을 초기화되지 않은 값 삼을 수 있겠지만, 초기화 결과가 0인 경우도 분명 있을 수 있다.
 만약 프로젝트의 특성상 정수의 초기화 결과가 0이 될 수 없다면 코틀린이 아닌 그 프로젝트의 개발자가 직접 0으로 초기화 하면 된다. 아래 글을 참고하자.
 
-https://stackoverflow.com/questions/57408327/does-kotlin-have-primitive-types
-https://stackoverflow.com/questions/49594089/why-cant-i-set-lateinit-for-a-int-var-in-kotlin
+[코틀린 primitive types - 스택오버플로우](https://stackoverflow.com/questions/57408327/does-kotlin-have-primitive-types)
+
+[코틀린 Int 타입 변수에 lateinit을 설정할 수 없는 이유 - 스택오버플로우](https://stackoverflow.com/questions/49594089/why-cant-i-set-lateinit-for-a-int-var-in-kotlin)
 
 **<u>Checking whether lateinit var was initialized</u>**
 
@@ -331,13 +332,13 @@ class MyClass {
 
 `::`가 없으면 `isInitialized`를 호출할 수 없다. 이는 프로퍼티 레퍼런스와 관련된 내용인데, 아래 글을 참고하자.
 
-https://kotlinlang.org/docs/reflection.html#property-references
+[Reflection - 코틀린 레퍼런스](https://kotlinlang.org/docs/reflection.html#property-references)
 
 ### 4. TMI
 
 **<u>Backing fields</u>**
 
-https://kotlinlang.org/docs/properties.html#backing-fields
+[Backing fields - 코틀린 레퍼런스](https://kotlinlang.org/docs/properties.html#backing-fields)
 
 코틀린에서 필드는 오직 property의 값을 메모리에 저장하기 위해 property의 일부로만 사용된다.
 필드를 직접 선언할 수는 없다. 하지만 property가 backing field를 필요로 할 경우 코틀린이 자동으로 제공한다. Backing field는 property의 accessors 안에서 `field`를 통해 레퍼런스될 수 있다.
@@ -366,5 +367,5 @@ fun main() {
 
 **<u>lateinit vs lazy</u>**
 
-https://stackoverflow.com/questions/36623177/property-initialization-using-by-lazy-vs-lateinit
+[lateinit vs lazy - 스택오버플로우](https://stackoverflow.com/questions/36623177/property-initialization-using-by-lazy-vs-lateinit)
 
